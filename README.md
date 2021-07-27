@@ -1,2 +1,4 @@
 # Guide-to-TrackMate-Matlab-MSD
 Generation of Trackmate tracks for C9orf72-DPRs and Mean Square Displacement analysis with relative graphs
+
+For the MSD(Δt) analysis on DPR trajectories in primary mouse cortical neurons, we firstly used TrackMate for producing DPR tracks and then we implemented the MATLAB class @msdanalyzer written by Jean-Yves Tinevez (https://github.com/tinevez/msdanalyzer, GitHub), already used in a previous study (Tarantino et al., 2014) and explained in its details (Miura & Sladoje, 2020). MSD plots and Log-Log fit plots were produced with MATLAB R2018b using the aforementioned class. A detailed explanation of how the analysis was performed (from the generation of Trackmate tracks for C9orf72-DPRs to the production of graphs after MSD analysis) is shown here as a PDF file.
